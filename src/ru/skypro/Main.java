@@ -1,6 +1,6 @@
 package ru.skypro;
 
-import javax.swing.*;
+
 
 public class Main {
 
@@ -22,6 +22,13 @@ public class Main {
         System.out.println("Год публикации был = " + ruslanIlyudmila.getPublishingYear());
         ruslanIlyudmila.setPublishingYear(2022);
         System.out.println("Год публикации стал = " + ruslanIlyudmila.getPublishingYear());
+
+        System.out.println();
+        System.out.println(voinaImir);
+
+
+        System.out.println();
+        System.out.println(tolstoy.equals(pushkin));
 
     }
 }
